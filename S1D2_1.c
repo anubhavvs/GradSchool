@@ -14,3 +14,13 @@ int main()
 	
 	return 0;
 }
+
+/* OUTPUT:
+	
+	Enter the base:                                                                                                                               
+	10                                                                                                                                            
+	Enter the power:                                                                                                                              
+	3                                                                                                                                             
+	Result is 1000
+	
+*/
