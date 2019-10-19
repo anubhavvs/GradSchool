@@ -11,3 +11,13 @@ int main()
 	
 	printf("Percentage Obtained : %.2f%%\n",perc);
 }
+
+/*OUTPUT:
+	
+	Enter the marks obtained:                                                                                                                     
+	54                                                                                                                                            
+	Enter the total marks :                                                                                                                       
+	200                                                                                                                                           
+	Percentage Obtained : 27.00%
+	
+*/
