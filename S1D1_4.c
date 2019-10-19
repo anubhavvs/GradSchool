@@ -13,3 +13,19 @@ int main()
 	printf("\nAFTER SWAPPING :\na = %d\nb = %d\n",a,b);
 	return 0;
 }
+
+/* OUTPUT:
+	
+	Enter the two numbers:                                                                                                                          
+	50                                                                                                                                              
+	100                                                                                                                                             
+                                                                                                                                                
+	BEFORE SWAPPING :                                                                                                                               
+	a = 50                                                                                                                                          
+	b = 100                                                                                                                                         
+                                                                                                                                                
+	AFTER SWAPPING :                                                                                                                                
+	a = 100                                                                                                                                         
+	b = 50
+	
+*/
