@@ -15,3 +15,16 @@ int main()
 	printf("Compound Interest:\n%.2f",ci);
 	return 0;
 }
+
+/* OUTPUT:
+	
+	Enter the Principal:                                                                                                                          
+	10000                                                                                                                                         
+	Enter the rate:                                                                                                                               
+	5                                                                                                                                             
+	Enter the time period:                                                                                                                        
+	2                                                                                                                                             
+	Compound Interest:                                                                                                                            
+	11025.00
+	
+*/
