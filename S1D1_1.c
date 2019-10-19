@@ -12,3 +12,15 @@ int main()
 	
 	return 0;
 }
+
+
+/* OUTPUT:
+
+	Enter two Integer Values:
+	10
+	20
+	Sum : 30
+	Difference : -10
+	Product : 200
+	Division : 0
+*/
