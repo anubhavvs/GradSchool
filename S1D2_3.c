@@ -12,3 +12,12 @@ int main()
 	
 	return 0;
 }
+
+/* OUTPUT:
+	
+	Enter the number:                                                                                                                             
+	2500                                                                                                                                          
+	Square root:                                                                                                                                  
+	50
+	
+*/
