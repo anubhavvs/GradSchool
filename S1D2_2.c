@@ -12,3 +12,14 @@ int main()
     printf("\nYear : %d\nWeek : %d\nDays : %d\n",years,weeks,days);
     return 0;
 }
+
+/* OUTPUT:
+	
+	Enter the number of days:                                                                                                                     
+	789                                                                                                                                           
+                                                                                                                                              
+	Year : 2                                                                                                                                      
+	Week : 8                                                                                                                                      
+	Days : 3
+	
+*/
