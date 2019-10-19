@@ -10,3 +10,12 @@ int main()
 	printf("Temperature in Fahrenheit:\n%.2f\n",f);
 	return 0;
 }
+
+/* OUTPUT:
+	
+	Enter tempareture in Celsius:                                                                                                                 
+	100                                                                                                                                           
+	Temperature in Fahrenheit:                                                                                                                    
+	212.00
+	
+*/
