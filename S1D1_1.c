@@ -13,7 +13,6 @@ int main()
 	return 0;
 }
 
-
 /* OUTPUT:
 
 	Enter two Integer Values:
