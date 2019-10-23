@@ -12,7 +12,7 @@ int main()
 	printf("Enter second 10 integer values:\n");
 	for(i=0;i<10;i++)
 	{
-		scanf("%d",&y[j]);
+		scanf("%d",&y[i]);
 	}
 	printf("Result array:\n");
 	for(i=0;i<10;i++)
