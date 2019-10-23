@@ -3,22 +3,22 @@
 int main()
 {
 	char x[10],y[10],z[10];
-	int i,j,k;
+	int i;
 	printf("Enter first 10 integer values:\n");
 	for(i=0;i<10;i++)
 	{
 		scanf("%d",&x[i]);
 	}
 	printf("Enter second 10 integer values:\n");
-	for(j=0;j<10;j++)
+	for(i=0;i<10;i++)
 	{
 		scanf("%d",&y[j]);
 	}
 	printf("Result array:\n");
-	for(k=0,i=0,j=0;k<10;k++,i++,j++)
+	for(i=0;i<10;i++)
 	{
-		z[k]=x[i]+y[j];
-		printf("%d\n",z[k]);
+		z[i]=x[i]+y[i];
+		printf("%d\n",z[i]);
 	}
 	
 	return 0;
