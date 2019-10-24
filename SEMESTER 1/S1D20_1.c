@@ -28,3 +28,22 @@ void search(int m[],int n)
 	if(flag==0)
 	printf("\nSearched value not found.\n");
 }
+
+/*OUTPUT:
+	Enter 10 integer values:
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	
+	Search for:
+	5
+	
+	Found at position 4.
+*/
