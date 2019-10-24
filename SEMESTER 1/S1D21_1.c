@@ -22,3 +22,9 @@ int main()
 	return 0;
 }
 
+/*OUTPUT:
+	Enter a string:
+	hello
+	
+	Length of the string is 5.
+*/
