@@ -10,3 +10,10 @@ int main()
 	
 	return 0;
 }
+
+/*OUTPUT:
+	Enter a number:
+	20
+	Number is:
+	EVEN
+*/
