@@ -28,3 +28,9 @@ int main()
 			printf("Enter valid grade!/n");
 	}
 }
+
+/*OUTPUT:
+	Enter grade (A, B, C, D, F):
+	B
+	Well Done!
+*/
