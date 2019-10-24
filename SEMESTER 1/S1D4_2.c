@@ -26,3 +26,12 @@ int main()
 	
 	return 0;
 }
+
+/*OUTPUT:
+	Enter sales amount:
+	20000
+	Enter grade:
+	2
+	Commission:
+	4360.00
+*/
