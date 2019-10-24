@@ -13,3 +13,10 @@ int main()
 	
 	return 0;
 }
+
+/*OUTPUT:
+	Enter the number:
+	5
+	Factorial:
+	120
+*/
