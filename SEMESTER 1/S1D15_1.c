@@ -18,3 +18,11 @@ int main()
 	printf("\n");
 	return 0;
 }
+
+/*OUTPUT:
+	Enter any name:
+	Tony Stark
+	
+	Result:
+	T.S.
+*/
