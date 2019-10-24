@@ -23,3 +23,9 @@ int main()
 	}
 	return 0;
 }
+
+/*OUTPUT:
+	Enter the marks:
+	467
+	2nd Division.
+*/
