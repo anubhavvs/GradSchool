@@ -13,3 +13,10 @@ int main()
 	}
 	printf("%d",rev);
 }
+
+/*OUTPUT:
+	Enter the number:
+	12354
+	Reversed:
+	45321
+*/
