@@ -37,3 +37,14 @@ int main()
 	
 	return 0;
 }
+
+/*OUTPUT:
+	Enter the desired operation (+, -, *, /, %):
+	+
+	Enter the two number:
+	1344
+	809
+	
+	RESULT:
+	1344.00 + 809.00 = 2153.00
+*/
