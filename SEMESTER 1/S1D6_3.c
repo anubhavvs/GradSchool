@@ -17,3 +17,13 @@ int main()
 		printf("\n");
 	}
 }
+
+/*OUTPUT:
+	Enter the number of lines:
+	5
+	        *
+	      * *
+	    * * *
+	  * * * *
+	* * * * *
+*/
