@@ -8,23 +8,23 @@ int main()
 	gets(x);
 	for(j=strlen(x)-1;j>=0;j--)
 	{
-		if(x[j]=='a')
+		if(x[j]=='a' || x[j]=='A')
 		{
 			a++;
 		}
-		if(x[j]=='e')
+		if(x[j]=='e' || x[j]=='E')
 		{
 			e++;
 		}
-		if(x[j]=='i')
+		if(x[j]=='i' || x[j]=='I')
 		{
 			i++;
 		}
-		if(x[j]=='o')
+		if(x[j]=='o' || x[j]=='O')
 		{
 			o++;
 		}
-		if(x[j]=='u')
+		if(x[j]=='u' || x[j]=='U')
 		{
 			u++;
 		}
@@ -34,3 +34,15 @@ int main()
 	
 	return 0;
 }
+
+/*OUTPUT:
+	Enter a word:
+	facebook
+	
+	Number of vowels present:
+	a: 1
+	e: 1
+	i: 0
+	o: 2
+	u: 0
+*/
