@@ -13,3 +13,11 @@ int main()
 	}
 	return 0;
 }
+
+/*OUTPUT:
+	Enter a word:
+	world
+	
+	Reversed:
+	dlrow
+*/
