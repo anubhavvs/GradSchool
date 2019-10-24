@@ -24,3 +24,10 @@ int main()
 	
 	return 0;
 }
+
+/*OUTPUT:
+	Enter the amount:
+	2500
+	Amount + Tax:
+	3050.00
+*/
