@@ -8,3 +8,12 @@ int main()
 	printf("%d",a>b?(a>c?a:c):(b>c?b:c));
 	return 0;
 }
+
+/*OUTPUT:
+	Enter the three numbers:
+	10
+	20
+	90
+	Maximum number:
+	90
+*/
