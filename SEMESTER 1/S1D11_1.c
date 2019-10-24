@@ -20,3 +20,11 @@ int main()
 	printf("%d",sum);
 	return 0;
 }
+
+/*OUTPUT:
+	Enter the range:
+	10
+	
+	Series:
+	2 + 4 + 6 + 8 + 10 = 30
+*/
