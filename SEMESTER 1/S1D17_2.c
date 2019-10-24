@@ -18,8 +18,35 @@ int main()
 	for(i=0;i<10;i++)
 	{
 		z[i]=x[i]+y[i];
-		printf("%d\n",z[i]);
+		printf("%d, ",z[i]);
 	}
 	
 	return 0;
 }
+
+/*OUTPUT:
+	Enter first 10 integer values:
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	Enter second 10 integer values:
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	Result array:
+	2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 
+*/
