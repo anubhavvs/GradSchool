@@ -22,3 +22,11 @@ int main()
 	
 	return 0;
 }
+
+/*OUTPUT:
+	Enter the range:
+	5
+	
+	Series:
+	1 + 4 + 9 + 16 + 25 = 55
+*/
