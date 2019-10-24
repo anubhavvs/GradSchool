@@ -15,3 +15,9 @@ int main()
 			break;
 	}
 }
+
+/*OUTPUT:
+	Enter a number:
+	2091
+	Number is ODD.
+*/
