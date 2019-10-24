@@ -16,3 +16,17 @@ int main()
 	printf("\nAfter swapping:\na = %f\nb = %f",a,b);
 	return 0;
 }
+
+/*OUTPUT:
+	Enter two float values:
+	10.6
+	9.8
+	
+	Before swapping:
+	a = 10.600000
+	b = 9.800000
+	
+	After swapping:
+	a = 9.800000
+	b = 10.600000
+*/
