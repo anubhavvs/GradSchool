@@ -35,3 +35,12 @@ int main()
 	}
 	return 0;
 }
+
+/*OUTPUT:
+	Enter three numbers:
+	90
+	10
+	20
+	
+	90.00 is the largest.
+*/
