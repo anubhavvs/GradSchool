@@ -24,3 +24,21 @@ int main()
 	printf("Min value:\n%d\n",min);
 	return 0;
 }
+
+/*OUTPUT:
+	Enter 10 integer values:
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	Max Value:
+	10
+	Min Value:
+	1
+*/
