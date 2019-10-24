@@ -21,3 +21,11 @@ int main()
 	printf("= %d",sum);
 	return 0;
 }
+
+/*OUTPUT:
+	Enter the range:
+	10
+	
+	Series:
+	+ 1 - 2 + 3 - 4 + 5 - 6 + 7 - 8 + 9 - 10 = -5
+*/
