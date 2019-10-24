@@ -20,3 +20,10 @@ int main()
 	
 	return 0;
 }
+
+/*OUTPUT:
+	Enter a charecter:
+	G
+	Entered charecter is:
+	ALPHABET
+*/
