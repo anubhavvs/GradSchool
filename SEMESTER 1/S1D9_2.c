@@ -23,3 +23,11 @@ int main()
 		printf("\nNOT A PALINDROME\n");
 	}
 }
+
+/*OUTPUT:
+	Enter the number:
+	12521
+	Reversed:
+	12521
+	PALINDROME
+*/
