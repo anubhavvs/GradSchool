@@ -27,3 +27,13 @@ int main()
     
     return 0;
 }
+
+/*OUTPUT:
+    Enter the first string:
+    Hello
+    Enter the second string string to be concatenated:
+     World
+     
+     The string after concatenation is:
+     Hello World
+*/
