@@ -34,3 +34,9 @@ int main()
 		printf("Enter only valid month number!\n");
 	}
 }
+
+/*OUTPUT:
+	Enter a month number:
+	7
+	Number of days are 31
+*/
