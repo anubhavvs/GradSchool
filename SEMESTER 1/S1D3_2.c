@@ -18,3 +18,9 @@ int main()
 	}
 	return 0;
 }
+
+/*OUTPUT:
+	Enter a temperature in Celsius:
+	100.80
+	More than freezing
+*/
