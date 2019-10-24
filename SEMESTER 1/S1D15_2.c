@@ -37,3 +37,11 @@ int main()
 	printf("\n");
 	return 0;
 }
+
+/*OUTPUT:
+	Enter any name:
+	david beckham
+	
+	Result:
+	D.Beckham
+*/
