@@ -31,3 +31,20 @@ int main()
 	}
 	return 0;
 }
+
+/*OUTPUT:
+	Enter 10 integer values:
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	
+	Search for value: 5
+	Searched value is at index: 4
+*/
