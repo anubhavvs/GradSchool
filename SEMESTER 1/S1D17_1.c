@@ -16,3 +16,10 @@ int main()
 	printf("\nNumber of white spaces: %d\n",count);
 	return 0;
 }
+
+/*OUTPUT:
+	Enter a sentence:
+	Git is a version control system.
+	
+	Number of white spaces: 5
+*/
