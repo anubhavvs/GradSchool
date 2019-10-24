@@ -30,3 +30,9 @@ int main()
 		printf("Enter only alphabets!\n");
 	}
 }
+
+/*OUTPUT:
+	Enter the charecter:
+	o
+	It is a vowel.
+*/
