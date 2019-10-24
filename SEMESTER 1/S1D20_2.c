@@ -21,3 +21,10 @@ int fact(int m)
 		return m*fact(m-1);
 	}
 }
+
+/*OUTPUT:
+	Enter a number:
+	120
+	
+	Factorial of 5 is 120.
+*/
