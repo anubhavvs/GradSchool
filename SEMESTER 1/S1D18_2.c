@@ -63,3 +63,16 @@ int main()
 	}	
 	return 0;
 }
+
+/*OUTPUT:
+	Choose from the following:
+	1. Addition
+	2. Subtraction
+	3. Multiplication
+	4. Division
+	Your choice: 2
+	Enter two numbers for subtraction:
+	100
+	20
+	The difference is 80
+*/
