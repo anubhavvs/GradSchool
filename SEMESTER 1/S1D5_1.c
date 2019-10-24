@@ -21,3 +21,9 @@ int main()
 	
 	return 0;
 }
+
+/*OUTPUT:
+	Please Enter the gender: (m / M and f / F):
+	m
+	MALE
+*/
