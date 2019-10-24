@@ -14,3 +14,10 @@ int main()
 	printf("%d",sum);
 	return 0;
 }
+
+/*OUTPUT:
+	Enter the number:
+	145
+	SUM:
+	10
+*/
