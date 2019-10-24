@@ -3,7 +3,7 @@ int main()
 {
 	float x[10],a;
 	int i,j;
-	printf("Enter the values:\n");
+	printf("Enter 10 float values:\n");
 	for(i=0;i<10;i++)
 	{
 		scanf("%f",&x[i]);
@@ -27,3 +27,28 @@ int main()
 	}
 	return 0;
 }
+
+/*OUTPUT:
+	Enter 10 float values:
+	1
+	2
+	10
+	5
+	87
+	14
+	20
+	158
+	32
+	27
+	
+	Array in descending order:
+	158.00
+	87.00
+	32.00
+	27.00
+	20.00
+	14.00
+	5
+	2
+	1
+*/
