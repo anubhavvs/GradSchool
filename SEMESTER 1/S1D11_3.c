@@ -22,3 +22,13 @@ int main()
 	printf("%d",sum);
 	return 0;
 }
+
+/*OUTPUT:
+	Enter the range:
+	10
+	Enter the value of c:
+	2
+	
+	Series:
+	1*2 + 2*2 + 3*2 + 4*2 + 5*2 + 6*2 + 7*2 + 8*2 + 9*2 + 10*2 = 110
+*/
