@@ -15,3 +15,10 @@ int main()
 	}
 	return 0;
 }
+
+/*OUTPUT:
+	Enter a number:
+	11
+	Number is:
+	ODD
+*/
