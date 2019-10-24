@@ -19,3 +19,13 @@ int main()
 		printf("\n");
 	}
 }
+
+/*OUTPUT:
+	Enter the number of lines:
+	5
+	    0
+	   10
+	  101
+	 0101
+	01010
+*/
