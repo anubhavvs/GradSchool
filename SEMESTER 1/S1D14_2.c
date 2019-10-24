@@ -25,3 +25,10 @@ int main()
 	
 	return 0;
 }
+
+/*OUTPUT:
+	Enter a word:
+	madam
+	
+	PALINDROME
+*/
