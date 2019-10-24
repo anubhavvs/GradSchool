@@ -44,3 +44,12 @@ int main()
 	}	
 	return 0;
 }
+
+/*OUTPUT:
+	1. Addition
+	2. Subtraction
+	3. Multiplication
+	4. Division
+	Your choice: 1
+	The sum is 30
+*/
