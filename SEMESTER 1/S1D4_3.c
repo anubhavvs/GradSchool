@@ -46,3 +46,15 @@ int main()
 	return 0;
 	
 }
+
+/*OUTPUT:
+	Enter the amount:
+	2510
+	Denominations:
+	2000: 1
+	500: 1
+	100: 0
+	50: 0
+	20: 0
+	10: 1
+*/
