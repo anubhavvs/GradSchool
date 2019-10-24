@@ -25,3 +25,20 @@ int maxarray(int x[])
 	}
 	return max;
 }
+
+/*OUTPUT:
+	Enter 10 integer values:
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	
+	Max element:
+	10
+*/
