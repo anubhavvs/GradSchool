@@ -1,5 +1,5 @@
 #include<stdio.h>
-int sum()
+void sum()
 {
 	int x, y;
 	printf("Enter two numbers for addition:\n");
@@ -8,7 +8,7 @@ int sum()
 	
 	printf("The sum is %d\n",x+y);
 }
-int sub()
+void sub()
 {
 	
 	int x, y;
@@ -18,7 +18,7 @@ int sub()
 	
 	printf("The difference is %d\n",x-y);
 }
-int mult()
+void mult()
 {
 	int x, y;
 	printf("Enter two numbers for multiplication:\n");
@@ -27,7 +27,7 @@ int mult()
 	
 	printf("The product is %d\n",x*y);
 }
-float div()
+void div()
 {
 	int x, y;
 	printf("Enter two numbers for division:\n");
