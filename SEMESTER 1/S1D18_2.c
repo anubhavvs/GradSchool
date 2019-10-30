@@ -1,24 +1,24 @@
 #include<stdio.h>
 int x, y;
-int sum()
+void sum()
 {
 	printf("Enter two numbers for addition:\n");
 	scanf("%d\n%d",&x,&y);
 	printf("The sum is %d\n",x+y);
 }
-int sub()
+void sub()
 {
 	printf("Enter two numbers for subtraction:\n");
 	scanf("%d\n%d",&x,&y);
 	printf("The difference is %d\n",x-y);
 }
-int mul()
+void mul()
 {
 	printf("Enter two numbers for multiplication:\n");
 	scanf("%d\n%d",&x,&y);
 	printf("The product is %d\n",x*y);
 }
-float div()
+void div()
 {
 	printf("Enter two numbers for division:\n");
 	scanf("%d\n%d",&x,&y);
