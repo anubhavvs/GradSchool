@@ -1,55 +1,64 @@
 #include<stdio.h>
 int sum(int x, int y)
 {	
-	printf("The sum is %d\n",x+y);
+	return x+y;
 }
 int sub(int x, int y)
 {
-	printf("The difference is %d\n",x-y);
+	return x-y;
 }
 int mul(int x, int y)
 {
-	printf("The product is %d\n",x*y);
+	return x*y;
 }
-float div(int x, int y)
+int div(int x, int y)
 {
-	printf("The division is %d\n",x/y);
+	return x/y;
 }
 int main()
 {
-	int ch,a,b;
+	int ch,a,b,res;
 	printf("Enter the two numbers:\n");
 	scanf("%d\n%d",&a,&b);
-	printf("Choose from the following:\n");
-	printf("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n");
-	printf("Your Choice: ");
-	scanf("%d",&ch);
-	switch(ch)
+	do
 	{
-		case 1:
-			sum(a,b);
-			break;
-		case 2:
-			sub(a,b);
-			break;
-		case 3:
-			mul(a,b);
-			break;
-		case 4:
-			div(a,b);
-			break;
-		default:
-			printf("Select from valid option!\n");
-			break;
-	}	
+		printf("Choose from the following:\n");
+		printf("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n");
+		printf("Your Choice: ");
+		scanf("%d",&ch);
+		switch(ch)
+		{
+			case 1:
+				res = sum(a,b);
+				printf("The sum is %d.\n",res);
+				break;
+			case 2:
+				res = sub(a,b);
+				printf("The difference is %d.\n",res);
+				break;
+			case 3:
+				res = mul(a,b);
+				printf("The product is %d.\n",res);
+				break;
+			case 4:
+				res = div(a,b);
+				printf("The division is %d.\n",res);
+				break;
+		}
+	}while(ch!=5);
+	
 	return 0;
 }
 
 /*OUTPUT:
+	Enter the two numbers:
+	100
+	20
+	Choose from the following:
 	1. Addition
 	2. Subtraction
 	3. Multiplication
 	4. Division
-	Your choice: 1
-	The sum is 30
+	Your choice: 2
+	The difference is 80.
 */
