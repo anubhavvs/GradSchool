@@ -1,39 +1,27 @@
 #include<stdio.h>
+int x, y;
 int sum()
 {
-	int x, y;
 	printf("Enter two numbers for addition:\n");
-	scanf("%d",&x);
-	scanf("%d",&y);
-	
+	scanf("%d\n%d",&x,&y);
 	printf("The sum is %d\n",x+y);
 }
 int sub()
 {
-	
-	int x, y;
 	printf("Enter two numbers for subtraction:\n");
-	scanf("%d",&x);
-	scanf("%d",&y);
-	
+	scanf("%d\n%d",&x,&y);
 	printf("The difference is %d\n",x-y);
 }
 int mul()
 {
-	int x, y;
 	printf("Enter two numbers for multiplication:\n");
-	scanf("%d",&x);
-	scanf("%d",&y);
-	
+	scanf("%d\n%d",&x,&y);
 	printf("The product is %d\n",x*y);
 }
 float div()
 {
-	int x, y;
 	printf("Enter two numbers for division:\n");
-	scanf("%d",&x);
-	scanf("%d",&y);
-	
+	scanf("%d\n%d",&x,&y);
 	printf("The division is %d\n",x/y);
 }
 int main()
@@ -56,9 +44,6 @@ int main()
 			break;
 		case 4:
 			div();
-			break;
-		default:
-			printf("Select from valid option!\n");
 			break;
 	}	
 	return 0;
