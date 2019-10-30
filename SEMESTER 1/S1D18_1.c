@@ -1,39 +1,27 @@
 #include<stdio.h>
+int x, y;
 void sum()
 {
-	int x, y;
 	printf("Enter two numbers for addition:\n");
-	scanf("%d",&x);
-	scanf("%d",&y);
-	
+	scanf("%d\n%d",&x,&y);
 	printf("The sum is %d\n",x+y);
 }
 void sub()
 {
-	
-	int x, y;
 	printf("Enter two numbers for subtraction:\n");
-	scanf("%d",&x);
-	scanf("%d",&y);
-	
+	scanf("%d\n%d",&x,&y);
 	printf("The difference is %d\n",x-y);
 }
 void mult()
 {
-	int x, y;
 	printf("Enter two numbers for multiplication:\n");
-	scanf("%d",&x);
-	scanf("%d",&y);
-	
+	scanf("%d\n%d",&x,&y);
 	printf("The product is %d\n",x*y);
 }
 void div()
 {
-	int x, y;
 	printf("Enter two numbers for division:\n");
-	scanf("%d",&x);
-	scanf("%d",&y);
-	
+	scanf("%d\n%d",&x,&y);
 	printf("The division is %d\n",x/y);
 }
 int main()
