@@ -27,25 +27,28 @@ void div()
 int main()
 {
 	int ch;
-	printf("Choose from the following:\n");
-	printf("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n");
-	printf("Your Choice: ");
-	scanf("%d",&ch);
-	switch(ch)
+	do
 	{
-		case 1:
-			sum();
-			break;
-		case 2:
-			sub();
-			break;
-		case 3:
-			mul();
-			break;
-		case 4:
-			div();
-			break;
-	}	
+		printf("Choose from the following:\n");
+		printf("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Exit");
+		printf("Your Choice: ");
+		scanf("%d",&ch);
+		switch(ch)
+		{
+			case 1:
+				sum();
+				break;
+			case 2:
+				sub();
+				break;
+			case 3:
+				mul();
+				break;
+			case 4:
+				div();
+				break;
+		}
+	}while(ch!=5);
 	return 0;
 }
 
@@ -55,6 +58,7 @@ int main()
 	2. Subtraction
 	3. Multiplication
 	4. Division
+	5. Exit
 	Your choice: 2
 	Enter two numbers for subtraction:
 	100
