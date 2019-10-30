@@ -23,7 +23,7 @@ int main()
 	do
 	{
 		printf("Choose from the following:\n");
-		printf("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n");
+		printf("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Exit\n");
 		printf("Your Choice: ");
 		scanf("%d",&ch);
 		switch(ch)
@@ -59,6 +59,7 @@ int main()
 	2. Subtraction
 	3. Multiplication
 	4. Division
+	5. Exit
 	Your choice: 2
 	The difference is 80.
 */
