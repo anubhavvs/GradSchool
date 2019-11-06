@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-	int i,j,k,n;
+	int i,j,k=0,n;
 	printf("Enter the number of lines: ");
 	scanf("%d",&n);
 	
 	for(i=1;i<=n;i++)
 	{
-		for(j=i;j<=n;j++)
+		for(j=i;j<=n-i;j++)
 		{
 			printf(" ");
 		}
