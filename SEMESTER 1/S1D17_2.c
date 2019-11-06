@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-	char x[10],y[10],z[10];
+	int x[10],y[10],z[10];
 	int i;
 	printf("Enter first 10 integer values:\n");
 	for(i=0;i<10;i++)
