@@ -2,7 +2,8 @@
 #include<string.h>
 int main()
 {
-	char x[20],i,l,flag;
+	char x[20];
+        int l,i,flag=0;
 	printf("Enter a word:\n");
 	gets(x);
 	l=strlen(x);
