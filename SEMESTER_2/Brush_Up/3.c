@@ -1,6 +1,5 @@
 /* Write a C program to take a range from user and display all prime number belongs to that range. */
 #include<stdio.h>
-#include<math.h>
 int prime(int x)
 {
 	int i;
