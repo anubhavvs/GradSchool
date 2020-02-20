@@ -83,7 +83,7 @@ int main()
 	int ch;
 	while(1)
 	{
-		printf("1. Enter record\n2. Delete a record\n3. Display the display\n4. Exit\nYour choice: ");
+		printf("1. Enter record\n2. Delete a record\n3. Display the record\n4. Exit\nYour choice: ");
 		scanf("%d",&ch);
 		switch(ch)
 		{
@@ -109,7 +109,7 @@ int main()
 /* OUTPUT:
 	1. Enter record
 	2. Delete a record
-	3. Display the display
+	3. Display the record
 	4. Exit
 	Your choice: 1
 	Enter the roll:
@@ -124,7 +124,7 @@ int main()
 	2
 	1. Enter record
 	2. Delete a record
-	3. Display the display
+	3. Display the record
 	4. Exit
 	Your choice: 3
 	Record:
@@ -136,7 +136,7 @@ int main()
 	Total marks: 155.00
 	1. Enter record
 	2. Delete a record
-	3. Display the display
+	3. Display the record
 	4. Exit
 	Your choice: 2
 	Record of Anubhav is deleted from the stack.
