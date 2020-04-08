@@ -44,7 +44,7 @@ void create(int n)
 	printf("Enter the data:\n");
     for(i=0;i<n;i++)
     {
-        p=malloc(sizeof(struct node));
+        p=(struct node *)malloc(sizeof(struct node));
         scanf("%d",&p->data);
         p->next=NULL;
         if(start==NULL)
