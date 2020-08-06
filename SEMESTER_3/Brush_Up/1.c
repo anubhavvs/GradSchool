@@ -1,3 +1,5 @@
+/*Create a user defined type students with roll, name and marks of 5 subjects. Initialize each member from user by user defined function. Then determine and display the topper of the students. Assume there are 10 students in the class.*/
+
 #define N 10
 #include<stdio.h>
 
