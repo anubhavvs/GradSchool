@@ -22,13 +22,13 @@ void Lsearch :: input()
 	{
 		cin>>x[i];
 	}
+	cout<<"Enter the key to search: ";
+	cin>>key;
 }
 
 void Lsearch :: search()
 {
 	int flag=0, i;
-	cout<<"Enter the key to search: ";
-	cin>>key;
 	for(i=0; i<N; i++)
 	{
 		if(x[i]==key)
@@ -39,7 +39,7 @@ void Lsearch :: search()
 	}
 	if(flag)
 	{
-		cout <<key<<" is found at position 4"<<i+1<<".\n";
+		cout <<key<<" is found at position "<<i+1<<".\n";
 	}
 	else
 	{
