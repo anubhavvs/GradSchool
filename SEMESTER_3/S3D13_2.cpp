@@ -5,7 +5,6 @@ using namespace std;
 class test 
 { 
     int a, b, result;
-    float div;
 public:
     void get();
     void sum();
