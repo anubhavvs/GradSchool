@@ -1,0 +1,1 @@
+cp file.txt file2.txt

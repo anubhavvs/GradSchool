@@ -1,0 +1,1 @@
+chmod go-wx file.txt

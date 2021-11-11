@@ -1,0 +1,1 @@
+rmdir test-dir
