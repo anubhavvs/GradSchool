@@ -1,0 +1,1 @@
+sort -r file.txt > sorted.txt

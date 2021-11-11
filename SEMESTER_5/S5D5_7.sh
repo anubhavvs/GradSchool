@@ -1,0 +1,1 @@
+sort -nr number.txt > sorted.txt

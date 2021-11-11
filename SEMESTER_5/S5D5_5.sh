@@ -1,0 +1,1 @@
+sort file.txt > sorted.txt
